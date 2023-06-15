@@ -3,11 +3,9 @@
 @tailwind utilities;
 @import-normalize;
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap");
-
 @layer base {
   body {
-    @apply bg-slate-200 font-body;
+    @apply bg-slate-200;
   }
 
   .container {
