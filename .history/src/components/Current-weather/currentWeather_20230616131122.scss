@@ -1,0 +1,19 @@
+.weather {
+  @apply my-8 mx-auto w-[300px] rounded-md shadow-lg bg-[#7488fa] p-6;
+}
+
+.top {
+  @apply flex items-center justify-between text-white;
+}
+
+.weather-city {
+  @apply font-semibold text-2xl leading-none;
+}
+
+.weather-description {
+  @apply leading-none;
+}
+
+.weather-icon {
+  @apply shadow-sm;
+}

@@ -1,0 +1,10 @@
+.title {
+  @apply text-2xl font-semibold;
+}
+
+.daily-item {
+  @apply rounded-2xl flex;
+  background: #ffffff;
+  height: 40px;
+  margin: 5px;
+}

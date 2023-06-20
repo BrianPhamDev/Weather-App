@@ -1,0 +1,32 @@
+.title {
+  @apply text-2xl font-semibold;
+}
+
+.daily-item {
+  @apply rounded-md flex items-center cursor-pointer text-sm;
+  background: #ffffff;
+  height: 52px;
+  margin: 12px 0;
+  padding: 5px 20px;
+}
+
+.icon-small {
+  width: 40px;
+  margin-right: 12px;
+}
+
+.day {
+  color: rgb(41, 91, 165);
+  flex: 1 1;
+  font-weight: 500;
+}
+.description {
+  color: rgb(183, 125, 23);
+  flex: 1 1;
+  text-align: right;
+  margin-right: 12px;
+}
+
+.min-max {
+  color: rgba(0, 0, 0, 0.592);
+}

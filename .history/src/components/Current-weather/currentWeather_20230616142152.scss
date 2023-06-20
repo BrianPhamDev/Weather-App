@@ -1,0 +1,51 @@
+.weather {
+  @apply my-8 mx-auto w-[380px] rounded-md shadow-lg p-6;
+  background: rgb(54, 69, 100);
+  background: linear-gradient(
+    81deg,
+    rgba(54, 69, 100, 1) 0%,
+    rgba(29, 37, 52, 1) 64%,
+    rgba(30, 28, 28, 1) 100%
+  );
+}
+
+.top {
+  @apply flex items-center justify-between text-white;
+}
+
+.weather-city {
+  @apply font-bold text-lg;
+}
+
+.weather-description {
+  @apply leading-5;
+}
+
+.weather-icon {
+  @apply shadow-sm;
+}
+
+.bottom {
+  @extend .top;
+  @apply mt-4;
+}
+
+.weather-temperature {
+  @apply font-semibold text-6xl w-auto;
+}
+
+.weather-details {
+  @apply w-full pl-[40px];
+}
+
+.parameter-row {
+  @apply flex justify-between;
+}
+
+.parameter-label {
+  @apply font-normal text-left text-[14px];
+}
+
+.parameter-value {
+  @apply font-semibold text-right text-[14px];
+}

@@ -1,0 +1,11 @@
+.weather {
+  @apply my-8 mx-auto w-[350px] rounded-md shadow-lg bg-blue-300 p-6;
+}
+
+.top {
+  @apply flex items-center justify-between;
+}
+
+.city {
+  @apply font-semibold text-2xl leading-none m-0;
+}

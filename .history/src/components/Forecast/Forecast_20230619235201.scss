@@ -1,0 +1,19 @@
+.title {
+  @apply text-2xl font-semibold;
+}
+
+.daily-item {
+  @apply rounded-2xl flex items-center cursor-pointer text-sm;
+  background: #ffffff;
+  height: 40px;
+  margin: 5px;
+  padding: 5px 20px;
+}
+
+.icon-small {
+  width: 40px;
+}
+
+.day {
+  color: rgb(50, 173, 180);
+}

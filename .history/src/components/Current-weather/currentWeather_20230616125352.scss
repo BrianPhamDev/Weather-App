@@ -1,0 +1,7 @@
+.weather {
+  @apply my-8 mx-auto w-[300px] rounded-md shadow-lg bg-blue-300 p-6;
+}
+
+.top {
+  @apply flex items-center justify-between;
+}
